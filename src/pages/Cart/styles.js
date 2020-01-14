@@ -20,10 +20,11 @@ footer {
     padding: 12px 20px;
     font-weight: bold;
     text-transform: uppercase;
-  }
-  &:hover{
-    background: ${darken(0.03, '#7159c1')};
-  }
+  
+    &:hover{
+      background: ${darken(0.04, '#7159c1')};
+    }
+ }
 }
 `;
 export const ProductTable = styled.table`
