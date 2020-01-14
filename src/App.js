@@ -6,6 +6,8 @@ import GlobalStyle from './styles/global';
 import Header from './components/Header/index'
 import Routes from './routes';
 
+import store from './store';
+
 function App() {
   return (
     <Provider store={store}>
